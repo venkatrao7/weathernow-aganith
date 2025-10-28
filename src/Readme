@@ -1,0 +1,66 @@
+# 🌦️ WeatherNow — Real-Time Weather App  
+**Candidate:** Venkat Rao Velagapudi  
+**Candidate ID:** Naukri1025  
+**Company:** Aganitha Cognitive Solutions — Take-Home Challenge  
+
+---
+
+## 📝 Summary  
+**WeatherNow** is a lightweight React web application that displays real-time weather for any city using **Open-Meteo APIs** (Geocoding + Current Weather).  
+It features a clean, responsive UI and works without any API keys.
+
+---
+
+## ✨ Features  
+✅ Search for any city by name  
+✅ Displays temperature (°C), wind speed (km/h), and local time  
+✅ Handles errors gracefully (empty input, city not found, network issues)  
+✅ Responsive design for both desktop and mobile  
+✅ No authentication or API key required  
+
+---
+
+## ⚙️ Tech Stack  
+- **Framework:** React (Vite template)  
+- **Styling:** Plain CSS (responsive layout)  
+- **APIs Used:**  
+  - [Open-Meteo Geocoding API](https://geocoding-api.open-meteo.com/v1/search?name={city})  
+  - [Open-Meteo Weather Forecast API](https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&current_weather=true)  
+
+---
+
+## 🔍 How It Works  
+1. The user enters a city name (e.g., `Hyderabad`).  
+2. The app calls the **Geocoding API** to fetch the latitude and longitude.  
+3. Using those coordinates, it calls the **Weather API** to fetch the current temperature, wind speed, and time.  
+4. The results are displayed neatly in a weather card.  
+
+---
+
+## 🚀 Live Demo (Level 2)  
+👉 [WeatherNow — CodeSandbox LIVE](https://codesandbox.io/p/sandbox/weathernow-venkatrao-aganith-687sgn)
+
+---
+
+## 💻 Files  
+
+---
+
+## ⚠️ Known Notes  
+- The geocoding API may return multiple results for similar names (e.g., “New York, US” vs “New York, UK”).  
+- Enter accurate city names for best results.  
+- Internet connection required for fetching live data.  
+
+---
+
+## 🧠 ChatGPT Work (Level 1)  
+This ChatGPT conversation guided the complete project creation step-by-step.  
+🔗 [ChatGPT Conversation Link](https://chatgpt.com/c/68ff5841-1e6c-8323-b367-34efb5f8546c)
+
+---
+
+## 🧾 Candidate Information  
+**Candidate ID:** Naukri1025  
+**Submission for:** Aganitha Full Stack Developer Take-Home Challenge  
+
+---
